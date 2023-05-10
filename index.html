@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voit's Kleding menu</title>
+    <meta name="description" content="Een Kleding menu Van Voit speciaal voor de opdracht van Spyke!" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Voit's Kleding menu</h1>
+    <div id="menu">
+        <h2>Kleding Categorieën</h2>
+        <ul>
+        <li><a href="#" onclick="showContent('shirts-content')">Shirts</a></li>
+        <li><a href="#" onclick="showContent('broeken-content')">Broeken</a></li>
+        <li><a href="#" onclick="showContent('schoenen-content')">Schoenen</a></li> 
+    </ul>
+    </div>
+    <div id="shirts-content" class="hidden">
+    <div class="shirt">
+        <img src="shirt1.jpg" alt="shirt 1">
+        <button class="buy-button" onclick="bekijkitem('shirt1')">Bekijk</button>
+    </div>
+    <div class="shirt">
+        <img src="shirt2.jpg" alt="shirt 2">
+        <button class="buy-button" onclick="bekijkitem('shirt2')">Bekijk</button>
+    </div>
+    <div class="shirt">
+        <img src="shirt3.jpg" alt="shirt 3">
+        <button class="buy-button" onclick="bekijkitem('shirt3')">Bekijk</button>
+    </div>
+</div>
+
+<div id="broeken-content" class="hidden">
+    <div class="broek">
+        <img src="broek1.jpg" alt="broek 1">
+        <button class="buy-button" onclick="bekijkitem('broek1')">Bekijk</button>
+    </div>
+    <div class="broek">
+        <img src="broek2.jpg" alt="broek 2">
+        <button class="buy-button" onclick="bekijkitem('broek2')">Bekijk</button>
+    </div>
+    <div class="broek">
+        <img src="broek3.jpg" alt="broek 3">
+        <button class="buy-button" onclick="bekijkitem('broek3')">Bekijk</button>
+    </div>
+</div>
+
+<div id="schoenen-content" class="hidden">
+    <div class="schoen">
+        <img src="schoen1.jpg" alt="schoen 1">
+        <button class="buy-button" onclick="bekijkitem('schoen1')">Bekijk</button>
+    </div>
+    <div class="schoen">
+        <img src="schoen2.jpg" alt="schoen 2">
+        <button class="buy-button" onclick="bekijkitem('schoen2')">Bekijk</button>
+    </div>
+    <div class="schoen">
+        <img src="schoen3.jpg" alt="schoen 3">
+        <button class="buy-button" onclick="bekijkitem('schoen3')">Bekijk</button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

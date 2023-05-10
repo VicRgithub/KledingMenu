@@ -1,0 +1,108 @@
+body {
+    background-color:transparent;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#menu {
+    width: 200px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+#menu h2 {
+    margin-bottom: 10px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    margin-bottom: 5px;
+}
+
+#menu a {
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #eee;
+}
+
+#content {
+    margin-left: 250px;
+    padding: 10px;
+}
+
+#content h2 {
+    margin-bottom: 10px;
+}
+
+#content img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.shirt {
+    display: inline-block;
+    width: 33%;
+    margin: 0%;
+    text-align: center;
+}
+
+.broek {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+.schoen {
+    display: inline-block;
+    width: 32%;
+    margin: 1%;
+    text-align: center;
+}
+
+.buy-button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #ff9900;
+}
+
+.hidden {
+    display: none;
+}
